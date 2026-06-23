@@ -1,5 +1,5 @@
 # 🌊 Ocean Paul Project - PatchTST 溫濕度預測微服務系統
-
+# WSL 5070電腦
 本專案是一個基於 **PatchTST (深度時序時間序列模型)** 的雙特徵（溫度、濕度）預測微服務系統。系統採用動靜分離架構，將 AI 模型研發訓練（Train）與線上即時推論服務（FastAPI）。
 
 ---
