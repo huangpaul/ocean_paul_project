@@ -44,12 +44,12 @@ predictor = PatchTSTPredictor(
 
 
 DB_CONFIG = {
-    'host': os.getenv('DB_HOST'),      # 如果 .env 沒寫，這裡就是 None
-    'user': os.getenv('DB_USER'),      # 全權交給 .env 決定
-    'password': os.getenv('DB_PASSWORD'),  # 程式碼裡連一個密碼字元都沒有！
-    'database': os.getenv('DB_NAME'),
-    'auth_plugin': 'mysql_native_password'
-}
+        'host': os.getenv('DB_HOST'),
+        'user': os.getenv('DB_USER'),
+        'password': os.getenv('DB_PASSWORD'), 
+        'database': os.getenv('DB_NAME'),
+        'auth_plugin': 'caching_sha256_password'  # 💡 學習點：改成現代 MySQL 預設的快取 SHA256 驗證
+    }
 # ===================================================================
 # 🚀 核心預測 API 路由
 # ===================================================================
