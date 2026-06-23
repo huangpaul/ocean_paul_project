@@ -24,3 +24,6 @@ results/
 # 6. 忽略作業系統產生的隱藏干擾檔
 .DS_Store
 Thumbs.db
+
+# 7. 忽略 Arduino 的隱私密鑰檔
+**/secrets.h
