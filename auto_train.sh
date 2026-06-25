@@ -47,3 +47,5 @@ if [ -f "$SRC_HUMIDITY" ]; then
 else
     echo "⚠️ 找不到濕度模型檔案: $SRC_HUMIDITY"
 fi
+
+
